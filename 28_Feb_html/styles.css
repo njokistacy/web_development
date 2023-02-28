@@ -1,0 +1,36 @@
+body{
+   background-color: gray;
+   background-image: url(images/download.jpeg);
+   background-repeat:no-repeat;
+   background-position: center;
+   background-attachment:fixed;
+}
+p{
+    color: aquamarine;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+#para1{
+    color: bisque;
+    border-style: dotted;
+    border-color: blue;
+    background-color: aqua;
+    border-radius: 20px;
+    border-top-style:solid;
+    
+}
+#para2{
+    border-style: double;
+    border-color:greenyellow;
+    border-left:solid;
+    border-left-color:blueviolet ;
+
+}
+.one{
+    font-style: italic;
+    font-size: 10px;
+    color: blanchedalmond;
+    background-color: black;
+}

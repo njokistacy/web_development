@@ -1,0 +1,49 @@
+body{
+    background-color:#2346;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header_one{
+           color:blueviolet;
+           text-decoration:underline;
+           text-align:center;
+           font-style: italic;
+}
+.tables{
+       background-color: rgb(122, 75, 198);
+       margin:34px;
+       width: fit-content 
+       ;
+}
+#table1{
+    background-color: bisque;
+    position: center;
+    border: 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+.table_head{
+    font-size:20px;
+    padding-right: 10px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom: 3px;
+    border-bottom-color: black;
+    border-right-style: solid;
+    border-right: 3px;
+    border-right-color: black;
+    background-color:yellow;
+}
+#table2{
+     border: 8px;
+     border-style:double;
+     border-radius: 10px;
+     border-color: black;
+     background-color: aqua;
+
+
+}
+td{
+    border: 5px;
+    border-style: solid;
+}
