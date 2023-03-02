@@ -1,0 +1,49 @@
+body{
+    background-color:lightgray;
+    align-items: center;
+}
+.top-div{
+    margin: auto;
+    border:2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width:400px;
+    /* padding:45px;
+    padding-top:20px;
+    padding-bottom:20px; */
+    background-color:blueviolet;
+    margin-top:100px;
+
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.credentials{
+    padding: 10px;
+    font-size:10px;
+    align-items: center;
+    margin-bottom:40px;
+    width:200px;
+    margin:20px;
+    color: blueviolet;
+}
+button{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width:150px;
+    padding:10px;
+    border: 3px;
+    border-style: hidden;
+    border-color: black;
+    border-radius: 10px;
+    
+
+}
+button:hover{
+    background-color:black;
+    font-weight: bolder;
+    color: white;
+}
