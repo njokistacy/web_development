@@ -1,0 +1,86 @@
+.sidebar{
+    background-color:black;
+    width:200;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style: none;
+    padding: 15px 15px ;
+    margin: 10px;
+    /* margin-left: 270px; */
+    
+}
+.sidebar li{
+    padding: 15px, 20px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+ 
+
+}
+ .sidebar a{
+    text-decoration: none;
+    color:yellow;
+}
+ a:hover{
+    color: blueviolet;
+    background-color: azure;
+ }
+.rounded-image{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    padding: 10px;
+    align-self: center;
+
+}
+.my-name{
+    font-size:35px;
+    color: blue;
+    font-weight:bold;
+    margin: 0;
+}
+.introduction{
+    margin-left:0;
+}
+.intro-text{
+    font-size: 25px;  
+}
+
+
+.contact-me{
+    text-align: center;
+    /* border: 1px solid red; */
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    background-color:black;
+    color:white;
+}
+.contact-me a:hover{
+    background-color:white;
+    color: black;
+    transition-delay: 15ms;
+}
+.my-work li {
+    color: black;
+}
+.main-content{
+    margin-left:300px;
+}
+.read-more{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    
+}

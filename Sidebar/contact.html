@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width= device-width, initial-scale=1">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="sidebar.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+    <!--Sidebar on contact-page-->
+       <div class="sidebar">
+        <img src="python.jpeg" alt="Image" class="rounded-image"> 
+        <nav>
+           <ul>
+            <li><a href="sidebar.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">More information</a></li>
+          </ul>
+        </nav>
+       </div> 
+<div id="contact-page">  
+    <section id="introduction">
+        <p>Having any suggestion, issue, feedback or comment? Feel free to contact us today.</p>
+    </section>
+<!--Contact from for messaging-->
+    <div id="contact-form">
+        <h2 id="form-header">Contact us</h2>
+        <div id="form-group">
+        <!--Name of user-->
+            <label for="name">Your name:</label>
+            <input required type="text" class="credentials" placeholder="Enter your name">
+        <!--User phone number-->
+            <label for="phone-number">Your phone number:</label>
+            <input type="tel" class="credentials" placeholder="Enter your phone number">
+        <!--User email-->
+            <label for="Email">Your email:</label>
+            <input required type="email" class="credentials" placeholder="Enter your email address">
+        <!---User's message-->
+            <label for="message">Your message:</label>
+            <input required type="text" class="credentials" placeholder="Type in your message">
+         </div>
+        <div id="form-wrap-up">
+        <button id="submit-button"type="submit"> Send message</button>
+        <p id="form-footer"><b>Thank you for contacting us</b></p>
+        </div>
+     </div>
+</div>
+    </body>
+</html>
